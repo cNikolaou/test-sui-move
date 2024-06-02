@@ -1,0 +1,5 @@
+name: 'Test Sui Move'
+description: 'Run unit and integration tests for Sui modules'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
