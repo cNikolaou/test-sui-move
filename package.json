@@ -1,6 +1,6 @@
 {
   "name": "test-sui-move",
-  "version": "0.1.0",
+  "version": "0.1.1-alpha.1",
   "description": "GitHub Action to run tests for a Sui project.",
   "main": "index.js",
   "scripts": {
