@@ -1,5 +1,9 @@
 name: 'Test Sui Move'
 description: 'Run unit and integration tests for Sui modules'
+branding:
+  icon: 'check-square'
+  color: 'blue'
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
