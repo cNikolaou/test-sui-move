@@ -1,3 +1,4 @@
+# Simple workflow to test that the GitHub Action works and doesn't crash
 name: Test the GitHub Action
 
 on: [push]

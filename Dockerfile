@@ -10,4 +10,8 @@ RUN tar -xzvf sui-mainnet-v1.23.1-ubuntu-x86_64.tgz -C /usr/local/bin/
 
 COPY ./entrypoint.sh ./entrypoint.sh
 
+COPY *.json ./
+
+RUN npm install
+
 CMD [ "/entrypoint.sh" ]
